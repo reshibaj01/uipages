@@ -1,0 +1,54 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+*{
+
+  padding : 0;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.image{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height:100%;
+  
+}
+.container{
+  width:80vw;
+  min-height:10vh;
+  background-color: black;
+}
+.para1, .para2{
+  color:antiquewhite;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.btn btn-secondary{
+  justify-content: center;
+  display: flex;
+}
+.split{
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+.para3,.para4{
+  font-size: 20px;
+}
+.top_container{
+  width: 100%;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+}
+.navbar-nav{
+  height: 100%;
+  width: 100%;
+}
+.split{
+  height: 100%;
+  width: 100%;
+}
